@@ -10152,6 +10152,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content {
   background: #fff;
   padding: 30px 20px;
+  border-radius: 0 0 20px 20px;
 }
 
 @media (max-width: 1399px) {
@@ -10159,7 +10160,6 @@ a.ui-button:active, .ui-button:active,
   .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content,
   .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content {
     padding: 20px;
-    border-radius: 0 0 20px 20px;
   }
 }
 
