@@ -12831,6 +12831,7 @@ a.ui-button:active, .ui-button:active,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-block: 1rem;
 }
 
 .wpo-contact-section-s3 .contact-img .contact-img-left,
