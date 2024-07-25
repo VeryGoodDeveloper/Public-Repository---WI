@@ -1552,10 +1552,10 @@
 
 			.wpo-blog-img {
 				overflow: hidden;
+				border-radius: 1rem;
 
 				img {
 					width: 100%;
-					border-radius: 1rem;
 					-webkit-filter: grayscale(0);
 					-moz-filter: grayscale(0);
 					-o-filter: grayscale(0);
