@@ -12920,8 +12920,18 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s8 .contact-img img {
   width: 100%;
   min-height: unset;
+  border-radius: 1rem;
 }
-
+.wpo-contact-section-s3 .contact-img video,
+.wpo-contact-section-s4 .contact-img video,
+.wpo-contact-section-s5 .contact-img video,
+.wpo-contact-section-s6 .contact-img video,
+.wpo-contact-section-s7 .contact-img video,
+.wpo-contact-section-s8 .contact-img video {
+  width: 100%;
+  min-height: unset;
+  border-radius: 1rem;
+}
 /* 6.6 wpo-event-section-s2 */
 .wpo-event-section-s2 .wpo-event-item,
 .wpo-event-section-s4 .wpo-event-item {
