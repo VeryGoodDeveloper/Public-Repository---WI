@@ -12862,7 +12862,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s6 .contact-img .contact-img-left img:first-child,
 .wpo-contact-section-s7 .contact-img .contact-img-left img:first-child,
 .wpo-contact-section-s8 .contact-img .contact-img-left img:first-child {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 575px) {
@@ -12872,7 +12872,7 @@ a.ui-button:active, .ui-button:active,
   .wpo-contact-section-s6 .contact-img .contact-img-left img:first-child,
   .wpo-contact-section-s7 .contact-img .contact-img-left img:first-child,
   .wpo-contact-section-s8 .contact-img .contact-img-left img:first-child {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
   }
 }
 
