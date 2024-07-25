@@ -947,6 +947,8 @@
 		.contact-img-right {
 			flex-basis: 50%;
 			padding-left: 10px;
+			height: 750px;
+			overflow: hidden;
 
 			@media(max-width:575px) {
 				padding-left: 5px;
@@ -955,7 +957,9 @@
 
 		img {
 			width: 100%;
-			min-height: unset;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
 		}
 
 	}

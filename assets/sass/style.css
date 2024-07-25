@@ -12884,6 +12884,8 @@ a.ui-button:active, .ui-button:active,
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding-left: 10px;
+  position: relative; /* Ensure proper positioning */
+  overflow: hidden; 
 }
 
 @media (max-width: 575px) {
@@ -12895,6 +12897,19 @@ a.ui-button:active, .ui-button:active,
   .wpo-contact-section-s8 .contact-img .contact-img-right {
     padding-left: 5px;
   }
+}
+.wpo-contact-section-s3 .contact-img .contact-img-right video,
+.wpo-contact-section-s4 .contact-img .contact-img-right video,
+.wpo-contact-section-s5 .contact-img .contact-img-right video,
+.wpo-contact-section-s6 .contact-img .contact-img-right video,
+.wpo-contact-section-s7 .contact-img .contact-img-right video,
+.wpo-contact-section-s8 .contact-img .contact-img-right video {
+  position: absolute; /* Positioning for overflow handling */
+  top: 0;
+  left: 0;
+  width: 100%; /* Make video fill container width */
+  height: 100%; /* Make video fill container height */
+  object-fit: cover; /* Cover container area while maintaining aspect ratio */
 }
 
 .wpo-contact-section-s3 .contact-img img,
