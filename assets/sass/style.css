@@ -12834,6 +12834,46 @@ a.ui-button:active, .ui-button:active,
   padding-block: 1rem;
 }
 
+/* Media query for mobile screens */
+@media (max-width: 575px) {
+  .wpo-contact-section-s3 .contact-img,
+  .wpo-contact-section-s4 .contact-img,
+  .wpo-contact-section-s5 .contact-img,
+  .wpo-contact-section-s6 .contact-img,
+  .wpo-contact-section-s7 .contact-img,
+  .wpo-contact-section-s8 .contact-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column; /* Stack items vertically on mobile */
+  }
+
+  .wpo-contact-section-s3 .contact-img .contact-img-left,
+  .wpo-contact-section-s4 .contact-img .contact-img-left,
+  .wpo-contact-section-s5 .contact-img .contact-img-left,
+  .wpo-contact-section-s6 .contact-img .contact-img-left,
+  .wpo-contact-section-s7 .contact-img .contact-img-left,
+  .wpo-contact-section-s8 .contact-img .contact-img-left,
+  .wpo-contact-section-s3 .contact-img .contact-img-right,
+  .wpo-contact-section-s4 .contact-img .contact-img-right,
+  .wpo-contact-section-s5 .contact-img .contact-img-right,
+  .wpo-contact-section-s6 .contact-img .contact-img-right,
+  .wpo-contact-section-s7 .contact-img .contact-img-right,
+  .wpo-contact-section-s8 .contact-img .contact-img-right {
+    width: 100%; /* Full width for stacking */
+    padding: 0; /* Remove padding */
+  }
+
+  .wpo-contact-section-s3 .contact-img .contact-img-left {
+    margin-bottom: 10px; /* Add spacing between image and video */
+  }
+
+  .wpo-contact-section-s3 .contact-img .contact-img-right {
+    margin-bottom: 0; /* No margin on the last item */
+  }
+}
+
+
 .wpo-contact-section-s3 .contact-img .contact-img-left,
 .wpo-contact-section-s4 .contact-img .contact-img-left,
 .wpo-contact-section-s5 .contact-img .contact-img-left,
@@ -12885,7 +12925,7 @@ a.ui-button:active, .ui-button:active,
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding-left: 10px;
-  position: relative; /* Ensure proper positioning */
+  position: static; /* Ensure proper positioning */
   overflow: hidden; 
 }
 
@@ -12905,7 +12945,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s6 .contact-img .contact-img-right video,
 .wpo-contact-section-s7 .contact-img .contact-img-right video,
 .wpo-contact-section-s8 .contact-img .contact-img-right video {
-  position: absolute; /* Positioning for overflow handling */
+  position: static; /* Positioning for overflow handling */
   top: 0;
   left: 0;
   width: 100%; /* Make video fill container width */
