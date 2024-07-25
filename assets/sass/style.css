@@ -10123,6 +10123,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-img img,
 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-img img {
   width: 100%;
+  border-radius: 20px 20px 0 0;
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
   -o-filter: grayscale(0);
@@ -10158,6 +10159,7 @@ a.ui-button:active, .ui-button:active,
   .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content,
   .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content {
     padding: 20px;
+    border-radius: 0 0 20px 20px;
   }
 }
 
