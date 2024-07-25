@@ -1549,10 +1549,11 @@
 	&.bg-white {
 		.wpo-blog-item {
 			margin-bottom: 30px;
+			border-radius: 1rem;
 
 			.wpo-blog-img {
 				overflow: hidden;
-				border-radius: 1rem;
+				
 
 				img {
 					width: 100%;
