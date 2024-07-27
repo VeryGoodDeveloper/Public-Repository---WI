@@ -1,0 +1,22 @@
+/* Style for the button inside the link */
+.button-link button {
+    display: inline-block; /* Ensures button is styled correctly */
+    background-color: #448daf; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Removes default border */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 1rem; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition effects */
+}
+
+.button-link button:hover {
+    background-color: #448daf9c; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+.button-link button:focus {
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Custom focus outline */
+}

@@ -233,6 +233,13 @@ img {
 }
 
 /* 1.2 Global Elements */
+
+.button-link {
+background:rgba(69, 187, 171, 0.6)
+
+}
+
+
 .page-wrapper {
   position: relative;
   overflow: hidden;
