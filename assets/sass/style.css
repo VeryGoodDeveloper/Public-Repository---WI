@@ -233,13 +233,6 @@ img {
 }
 
 /* 1.2 Global Elements */
-
-.button-link {
-background:rgba(69, 187, 171, 0.6)
-
-}
-
-
 .page-wrapper {
   position: relative;
   overflow: hidden;
@@ -703,6 +696,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 1.2rem;
   -webkit-transition: all .3s;
   transition: all .3s;
+  border-radius: 1rem;
 }
 
 .theme-btn.theme-btn-s3, .theme-btn-s3.view-cart-btn,
